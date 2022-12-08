@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color:bisque;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -17,4 +17,24 @@ p {
 
 .blue-color {
     color: rgb(0, 119, 255);
+}
+
+.container {
+  background-color:aqua;
+  height: 400px;
+  width:100%;
+}
+
+
+.moving-item {
+background-color: cadetblue;
+height: 50%;
+width: 50%;
+transition:transform 5s ease-in-out
+}
+
+.container:hover .moving-item{
+  transform: translate(100%);
+
+
 }
